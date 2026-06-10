@@ -1,0 +1,56 @@
+# SecToolBox configuration template.
+# Copy this file to config.yaml and replace placeholder paths with local paths.
+
+version: "1.0"
+
+categories:
+  - Web
+  - Scanner
+  - Exploit
+  - Reverse
+  - Connector
+
+tools:
+  - id: "example-java-gui"
+    name: "Example Java GUI"
+    type: "java-gui"
+    path: "C:\\Tools\\ExampleJavaGui\\example.jar"
+    javaVersion: "17"
+    description: "Java GUI tool example"
+    category: "Exploit"
+
+  - id: "example-java-cli"
+    name: "Example Java CLI"
+    type: "java-cli"
+    path: "C:\\Tools\\ExampleJavaCli\\example-cli.jar"
+    javaVersion: "17"
+    description: "Java CLI tool example"
+    category: "Exploit"
+
+  - id: "example-python"
+    name: "Example Python Tool"
+    type: "python"
+    path: "C:\\Tools\\ExamplePythonTool\\main.py"
+    description: "Python tool example"
+    category: "Scanner"
+
+  - id: "example-exe-gui"
+    name: "Example EXE GUI"
+    type: "exe-gui"
+    path: "C:\\Tools\\ExampleExeGui\\example.exe"
+    description: "Windows GUI executable example"
+    category: "Connector"
+
+  - id: "example-exe-cli"
+    name: "Example EXE CLI"
+    type: "exe-cli"
+    path: "C:\\Tools\\ExampleExeCli\\example-cli.exe"
+    description: "Windows CLI executable example"
+    category: "Web"
+
+env:
+  java:
+    - "8": "C:\\Java\\jdk8\\bin\\java.exe"
+    - "17": "C:\\Java\\jdk17\\bin\\java.exe"
+    - "21": "C:\\Java\\jdk21\\bin\\java.exe"
+  python: "C:\\Python312\\python.exe"

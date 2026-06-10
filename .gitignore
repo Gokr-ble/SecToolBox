@@ -1,0 +1,12 @@
+build
+node_modules
+frontend/dist
+.claude
+.vscode
+
+# Local runtime configuration
+config.yaml
+config.local.yaml
+config.*.local.yaml
+!config.yaml.template
+
