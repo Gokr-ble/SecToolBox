@@ -39,6 +39,10 @@ Edit Tool Category
 
 ![Edit Tool Category](docs/images/edit_tool_category.png)
 
+Integrated PTY
+
+![](docs/images/pty.png)
+
 ## Tech Stack
 
 - Backend: Go, Wails v2

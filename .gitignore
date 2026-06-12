@@ -3,6 +3,7 @@ node_modules
 frontend/dist
 .claude
 .vscode
+.idea
 
 # Local runtime configuration
 config.yaml
